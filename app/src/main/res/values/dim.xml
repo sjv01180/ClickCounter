@@ -2,4 +2,6 @@
 <resources>
     <dimen name="default_fs">32sp</dimen>
     <dimen name="default_pad">10dp</dimen>
+    <dimen name="default_bw">1</dimen>
+    <dimen name="default_tw">3</dimen>
 </resources>

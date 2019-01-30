@@ -13,7 +13,8 @@
         android:layout_height="wrap_content"
         android:text="@string/num_clicks"
         android:textSize="@dimen/default_fs"
-        android:gravity="center"/>
+        android:gravity="center"
+        android:layout_weight=""/>
 
     <Button
         android:layout_width="match_parent"
@@ -21,7 +22,8 @@
         android:onClick="buttonClick"
         android:id="@+id/buttonClick"
         android:text="@string/label"
-        android:textSize = "@dimen/default_fs"/>
+        android:textSize = "@dimen/default_fs"
+        android:layout_weight="@dimen/default_bw"/>
 
     <Button
         android:layout_width="match_parent"
@@ -29,6 +31,7 @@
         android:onClick="buttonClick"
         android:id="@+id/buttonReset"
         android:text="@string/reset"
-        android:textSize = "@dimen/default_fs"/>
+        android:textSize = "@dimen/default_fs"
+        android:layout_weight="@dimen/default_bw"/>
 
 </LinearLayout>
