@@ -4,14 +4,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:padding="@dimen/default_pad">
 
     <TextView
         android:id="@+id/display"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/num_clicks"
-        android:textSize="@android:dimen/app_icon_size"
+        android:textSize="@dimen/default_fs"
         android:gravity="center"/>
 
     <Button
@@ -20,7 +21,7 @@
         android:onClick="buttonClick"
         android:id="@+id/buttonClick"
         android:text="@string/label"
-        android:textSize = "32sp"/>
+        android:textSize = "@dimen/default_fs"/>
 
     <Button
         android:layout_width="match_parent"
@@ -28,6 +29,6 @@
         android:onClick="buttonClick"
         android:id="@+id/buttonReset"
         android:text="@string/reset"
-        android:textSize = "32sp"/>
+        android:textSize = "@dimen/default_fs"/>
 
 </LinearLayout>
